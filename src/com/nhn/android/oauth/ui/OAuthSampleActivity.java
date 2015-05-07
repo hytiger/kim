@@ -33,7 +33,7 @@ public class OAuthSampleActivity extends Activity {
 	private static final String TAG = "OAuthSampleActivity";
 	
 	private static final String TAG2 = "git Test";
-	private static final String TAG3 = "오리지널";
+	private static final String TAG3 = "오리지널111";
 	/**
 	 * client 정보를 넣어준다.
 	 */
