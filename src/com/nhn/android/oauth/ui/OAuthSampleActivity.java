@@ -35,7 +35,7 @@ public class OAuthSampleActivity extends Activity {
 	private static final String TAG2 = "git Tes2525t121313";
 	private static final String TAG3 = "테33111fffffeff13422341113";
 	/**
-	 * client 정보를 넣어준다.eeeeeee111111144444
+	 * client 정보를 넣어준다.eeeeeee111111144444ggggggggg
 	 */
 	private static String OAUTH_CLIENT_ID = "0fuxgAtAN1J4xG11111JEKBZy";  // Y2WVjwgjeO32kdtj4QPR      jyvqXeaVOVmV
 	private static String OAUTH_CLIENT_SECRET = "Ei4YwTdqaz"; // 8sp4bCiJs1    527300A0_COq1_XV33cf
