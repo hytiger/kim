@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nhn.android.oauth"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- naver app을 통한 인증을 위해 필요한 permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <!-- network 상태를 미리 체크하여 연결 안된 경우 다이얼로그를 보여주려면 아래 permission 추가 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="NaverOAuthSample" >
+        <activity
+            android:name=".ui.OAuthSampleActivity"
+            android:label="NaverOAuthSample"> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <!-- [naveroauthlogin][start] 네이버아이디로로그인을 사용하기 위해서 넣어줘야하는 부분 -->
+        <activity android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity" 
+            android:label="OAuth2.0 In-app"/>
+        <!-- [naveroauthlogin][end] -->
+    </application>
+
+</manifest>
