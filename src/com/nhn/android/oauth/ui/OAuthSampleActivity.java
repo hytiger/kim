@@ -35,7 +35,6 @@ public class OAuthSampleActivity extends Activity {
 	
 	private static final String TAG2 = "git Test";
 	private static final String TAG3 = "테스트 3333333번을 거쳐갑니다.";
-	private static final String TAG4 = "2233113131312ffbffg33";
 	/**
 	 * client 정보를 넣어준다.
 	 */
