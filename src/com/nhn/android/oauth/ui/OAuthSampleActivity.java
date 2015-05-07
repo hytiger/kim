@@ -37,7 +37,7 @@ public class OAuthSampleActivity extends Activity {
 	/**
 	 * client 정보를 넣어준다.eeeeeee1111111
 	 */
-	private static String OAUTH_CLIENT_ID = "0fuxgAtAN1J4xGJEKBZy";  // Y2WVjwgjeO32kdtj4QPR      jyvqXeaVOVmV
+	private static String OAUTH_CLIENT_ID = "0fuxgAtAN1J4xG11111JEKBZy";  // Y2WVjwgjeO32kdtj4QPR      jyvqXeaVOVmV
 	private static String OAUTH_CLIENT_SECRET = "Ei4YwTdqaz"; // 8sp4bCiJs1    527300A0_COq1_XV33cf
 	private static String OAUTH_CLIENT_NAME = "네이버 아이디로 로그인"; 
 	private static String OAUTH_CALLBACK_INTENT = "http://static.nid.naver.com/oauth/naverOAuthExp.nhn";	
