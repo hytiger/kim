@@ -31,10 +31,9 @@ import com.nhn.android.oauth.R;
 public class OAuthSampleActivity extends Activity {
 
 	private static final String TAG = "OAuthSampleActivity";
-	private static final String TAG1 = "OAuthSampleActivity1111111111111";
 	
 	private static final String TAG2 = "git Test";
-	private static final String TAG3 = "테스트 3333333번을 거쳐갑니다.";
+	private static final String TAG3 = "테스트11  좋네";
 	/**
 	 * client 정보를 넣어준다.
 	 */
