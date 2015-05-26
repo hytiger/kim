@@ -31,6 +31,7 @@ import com.nhn.android.oauth.R;
 public class OAuthSampleActivity extends Activity {
 
 	private static final String m = "good11111";
+	private static final String A = "good22222";
 
 	/**
 	 * client 정보를 넣어준다.eeeeeee111111144444ggggggggg
