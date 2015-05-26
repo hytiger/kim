@@ -35,6 +35,13 @@ public class OAuthSampleActivity extends Activity {
 	/**
 	 * client 정보를 넣어준다.eeeeeee111111144444ggggggggg
 	 */
+	
+
+	
+	private static final String LOVE = "마스터 에서 작업";
+	
+	
+	
 	private static String OAUTH_CLIENT_ID = "0fuxgAtAN1J4xG11111JEKBZy";  // Y2WVjwgjeO32kdtj4QPR      jyvqXeaVOVmV
 	private static String OAUTH_CLIENT_SECRET = "Ei4YwTdqaz"; // 8sp4bCiJs1    527300A0_COq1_XV33cf
 	private static String OAUTH_CLIENT_NAME = "네이버 아이디로 로그인"; 
@@ -174,8 +181,6 @@ public class OAuthSampleActivity extends Activity {
 			if (!isSuccessDeleteToken) {
 				// 서버에서 token 삭제에 실패했어도 클라이언트에 있는 token 은 삭제되어 로그아웃된 상태이다 
 				// 실패했어도 클라이언트 상에 token 정보가 없기 때문에 추가적으로 해줄 수 있는 것은 없음 
-				Log.d(TAG, "errorCode:" + mOAuthLoginInstance.getLastErrorCode(mContext));
-				Log.d(TAG, "errorDesc:" + mOAuthLoginInstance.getLastErrorDesc(mContext));
 			}
 
 			return null;
