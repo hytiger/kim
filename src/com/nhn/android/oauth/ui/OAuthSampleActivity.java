@@ -34,7 +34,7 @@ public class OAuthSampleActivity extends Activity {
 	
 	
 	
-	private static final String TAG1111 = "작업은 진행되다 두번째 진행되다";
+	private static final String TAG1111 = "머지머지머지 테트";
 	/**
 	 * client 정보를 넣어준다.eeeeeee111111144444ggggggggg
 	 */
