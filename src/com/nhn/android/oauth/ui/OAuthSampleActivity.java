@@ -14,8 +14,6 @@ public class OAuthSampleActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.naveroauthlogin_sample_main);
 		String text2 = " good 입니다.";
-		String text3= " 가보자";
-		String text4= "되나?";
 		String text5= "추가되었습니다.";
 		String text6 = "6번째 작업 추가"; 
 	}
