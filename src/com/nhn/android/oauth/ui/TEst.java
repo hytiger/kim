@@ -24,4 +24,8 @@ public class TEst {
 	private void Time(int index) {
 		
 	}
+
+	private void Time(int index, String a) {
+
+	}
 }
