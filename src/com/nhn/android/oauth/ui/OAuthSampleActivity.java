@@ -6,7 +6,9 @@ import android.os.Bundle;
 import com.nhn.android.oauth.R;
 
 
+
 public class OAuthSampleActivity extends Activity {
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -16,4 +18,3 @@ public class OAuthSampleActivity extends Activity {
 		String text4= "되나?";
 	}
 }
-
