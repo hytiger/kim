@@ -2,6 +2,7 @@ package com.nhn.android.oauth.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.nhn.android.oauth.R;
 
@@ -33,6 +34,10 @@ public class OAuthSampleActivity extends Activity {
 	
 	private void time() {
 		int i = 0;
+	}
+	
+	private void setTime() {
+		Log.e("TAG", "다시 함수 추가");
 	}
 
 }
