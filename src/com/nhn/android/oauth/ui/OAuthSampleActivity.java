@@ -25,5 +25,9 @@ public class OAuthSampleActivity extends Activity {
 	private void test22() {
 		
 	}
+	
+	private void init() {
+		String text = "이제 인식좀 되어가고있는듯....";
+	}
 
 }
