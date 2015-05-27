@@ -20,4 +20,8 @@ public class TEst {
 		String  a = "a";
 		int		b = 1;
 	}
+	
+	private void Time(int index) {
+		
+	}
 }
