@@ -16,7 +16,8 @@ public class TEst {
 	}
 	
 	
-	
-	
-
+	public void setItem(String text){
+		String  a = "a";
+		int		b = 1;
+	}
 }
