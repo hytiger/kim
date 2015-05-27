@@ -21,4 +21,8 @@ public class OAuthSampleActivity extends Activity {
 	private void test11 () {
 		
 	}
+	
+	private void test22() {
+		
+	}
 }
