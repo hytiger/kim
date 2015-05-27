@@ -4,6 +4,7 @@ public class TEst {
 	
 	String text = "";
 	String text1;
+	String ttttt;
 
 	
 	public TEst() {
